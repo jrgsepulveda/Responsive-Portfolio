@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+  }
+.bg {
+    /* The image used */
+    background-image: url("edho-pratama-T6fDN60bMWY-unsplash.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row-bg-color{
+    background-color: #e8a87c ;
+    border: 1px solid white;  
+    
+}
+.row-bg-color2{
+    background-color: transparent;
+}
+.display-4{
+    color: white;
+}
+.lead{
+    color: #d9d9d9;
+}
