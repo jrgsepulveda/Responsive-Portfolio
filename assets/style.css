@@ -16,9 +16,14 @@ body, html {
 }
 
 .box-text{ 
-    color: #36454f;
+    color: white;
     padding-top: 100px;
 }
 hr{
-    background-color: #36454f;
+    background-color:white;
+}
+.row1{
+    padding-top: 100px;
+    color: white;
+    padding-left: 75px;
 }
