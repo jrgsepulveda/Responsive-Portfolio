@@ -14,7 +14,9 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.nav{
+    width: 100%;
+}
 .box-text{ 
     color: white;
     padding-top: 100px;
@@ -25,5 +27,39 @@ hr{
 .row1{
     padding-top: 100px;
     color: white;
-    padding-left: 75px;
+}
+.pf-con-body{
+    padding-top: 200px;
+}
+.rowp{
+    height: 100px;
+}
+.toprow{
+    height: 200px;
+}
+.row2{
+    padding: 50px;
+}
+.bottomrow{
+    height: 275px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border: solid white 10px;
+    border-radius: 5px;
+    box-shadow: gray;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.card{
+    width: 12em;
+    margin-bottom: 10px;
+}
+.btn{
+    align-self: center;
 }
