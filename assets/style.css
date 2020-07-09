@@ -14,9 +14,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.nav{
-    width: 100%;
-}
+
 .box-text{ 
     color: white;
     padding-top: 100px;
@@ -34,6 +32,9 @@ hr{
 .rowp{
     height: 100px;
 }
+.profileContainer{
+    padding-top: 75px;
+}
 .toprow{
     height: 200px;
 }
@@ -44,19 +45,14 @@ hr{
     height: 275px;
 }
 img{
-    height: 200px;
-    width: 200px;
+    height:125px;
+    width: 125px;
  
 }
-footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-}
+
 .card{
     width: 12em;
-    margin-bottom: 10px;
+    margin: 5px;
     border: solid white 2px;
     background-color: transparent;
 }
@@ -67,4 +63,7 @@ footer{
     border: solid lightskyblue 4px;
     width: 13em;
     height: 18em;
+}
+.footer{
+    bottom: 0;
 }
