@@ -1,8 +1,16 @@
 $( document ).ready(function() {
-    
-  //  let img1 = $(".imgLink1").attr("href")
-  //  let img2 = $(".imgLink2").attr("href")
-  //  let img3 = $(".imgLink3").attr("href")
+  $(function() {
+    $('.animation').click(function(e) {
+        e.preventDefault();
+        var destination = this.href;
+        $('body').fadeOut(2000, function() {
+            window.location = destination;
+        });
+    });
+    return false;
+  });
+
+
 
   $(document).on('click', '.imgLink1', function(event){ 
     event.preventDefault(); 

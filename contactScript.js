@@ -1,5 +1,16 @@
 $(document).ready(function(){
     
+    $(function() {
+        $('.animation').click(function(e) {
+            e.preventDefault();
+            var destination = this.href;
+            $('body').fadeOut(2000, function() {
+                window.location = destination;
+            });
+        });
+        return false;
+      });
+    
     $("form").on("submit", (event)=>{
         //event.preventDefault();
         sendEmail();
